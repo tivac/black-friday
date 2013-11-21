@@ -33,4 +33,6 @@ Utility to automatically purchase amazon black friday deals
 10. Copy everything prior to `_starts_in_timer` from that, that is your deal ID
 11. Launch the application like this: `node . --customer=<customerID> --session=<sessionID> <dealID>` where `customerID` & `sessionID` are the values from step 6 and `dealID` is the value from step 9.
 
-Note: you can pass multiple deal IDs
+Note: you can pass multiple deal IDs.
+
+    node . --customer=<customerID> --session=<sessionID> <dealID> <dealID> <dealID>
