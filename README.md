@@ -23,7 +23,7 @@ Utility to automatically purchase amazon black friday deals
 7.  Type `blackfriday()` into the Chrome console and hit `enter`
 8.  Copy the command shown to a shell inside the `black-friday` folder
 9.  Save the `Cookie Data` string to a `cookie.txt` file inside the `black-friday` folder
-10.  Make note of the deal IDs you are interested in
+10. Make note of the deal IDs you are interested in
 11. Append those deal IDs to the end of the command you copied in step 7
 12. Hit `enter` in your shell.
 
