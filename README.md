@@ -15,16 +15,17 @@ Utility to automatically purchase amazon black friday deals
 ## Instructions ##
 
 1.  Launch Chrome
-2.  Press `F12` to open the developer tools
-3.  Select the `Console` tab
-4.  Inject the [Bookmarklet](#bookmarklet)
-5.  Click through every page of the upcoming deals section to ensure all the data has been loaded
-6.  Type `blackfriday()` into the Chrome console and hit `enter`
-7.  Copy the command shown to a shell inside the `black-friday` folder
-8.  Save the `Cookie Data` string to a `cookie.txt` file inside the `black-friday` folder
-9.  Make note of the deal IDs you are interested in
-10. Append those deal IDs to the end of the command you copied in step 7
-11. Hit `enter` in your shell.
+2.  Open the Amazon black friday deals page
+3.  Press `F12` to open the developer tools
+4.  Select the `Console` tab
+5.  Inject the [Bookmarklet](#bookmarklet)
+6.  Click through every page of the upcoming deals section to ensure all the data has been loaded
+7.  Type `blackfriday()` into the Chrome console and hit `enter`
+8.  Copy the command shown to a shell inside the `black-friday` folder
+9.  Save the `Cookie Data` string to a `cookie.txt` file inside the `black-friday` folder
+10.  Make note of the deal IDs you are interested in
+11. Append those deal IDs to the end of the command you copied in step 7
+12. Hit `enter` in your shell.
 
 
 Note: you can pass multiple deal IDs.
