@@ -32,5 +32,12 @@
         "desc"    : "Where to find the file containing your cookie data",
         "type"    : "string",
         "default" : "./cookie.txt"
+    },
+    
+    "retries" : {
+        "alias"   : "r",
+        "desc"    : "Number of retries in case of error adding item to cart",
+        "type"    : "number",
+        "default" : 5
     }
 }
