@@ -27,9 +27,10 @@ Utility to automatically purchase amazon black friday deals
 4.  Filter to just `XHR`
 5.  Watch for a `GetDealStatus` request, & select it
 6.  Look at the `Form Data` section & make note of the `sessionID` & `customerID` values
-7.  Find the deals you want to purchase, right-click their countdown timer, and choose `Inspect Element`
-8.  Double-click the `id` attribute of the selected `&lt;span&gt;` element, it should look like: `<span id="6f295c55_starts_in_timer"`
-9.  Copy everything prior to `_starts_in_timer` from that, that is your deal ID
-10. Launch the application like this: `node . --customer=<customerID> --session=<sessionID> <dealID>` where `customerID` & `sessionID` are the values from step 6 and `dealID` is the value from step 9.
+7.  Look at the `Request Headers` section & copy the `Cookie:` item's value (everything after `Cookie: ), save this to a txt file
+8.  Find the deals you want to purchase, right-click their countdown timer, and choose `Inspect Element`
+9.  Double-click the `id` attribute of the selected `&lt;span&gt;` element, it should look like: `<span id="6f295c55_starts_in_timer"`
+10. Copy everything prior to `_starts_in_timer` from that, that is your deal ID
+11. Launch the application like this: `node . --customer=<customerID> --session=<sessionID> <dealID>` where `customerID` & `sessionID` are the values from step 6 and `dealID` is the value from step 9.
 
 Note: you can pass multiple deal IDs
