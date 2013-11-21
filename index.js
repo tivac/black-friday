@@ -27,7 +27,9 @@ if(!argv._.length) {
 // set up cookie jar for purchase request
 jar = request.jar();
 
-fs.readFileSync(argv.cookie, { encoding : "utf8" }).split("\n").forEach(function(cookie) {
+fs.readFileSync(argv.cookie, { encoding : "utf8" }).split("; ").forEach(function(cookie) {
+    console.log(cookie);
+    
     if(!cookie.length) {
         return;
     }
