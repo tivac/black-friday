@@ -55,13 +55,18 @@ Or you can open chrome dev tools and paste the following into the `Console` tab 
 
 After injecting the code simply type `blackfriday()` into the console to get a list of all the loaded upcoming dealIDs & their name.
     
+    Black Friday Info
+    
+    Command
     node . --customer=<customerID> --session=<sessionID>
-    ==============================================================
-    bd149c0a : Stunt Puppy Stunt Runner Hands-Free Dog Leash VM548:16
+    
+    Cookie data
+    (save to cookie.txt inside the black-friday folder)
+    ...
+    ...
+    ...
+    ...
+    
+    Deal Details
+    bd149c0a : Stunt Puppy Stunt Runner Hands-Free Dog Leash
     8dafcfe0 : Wahl Professional Animal Kennel Pro Heavy-Duty Home Pet Grooming Kit
-    12189159 : Cloud Atlas VM933:2
-    24371680 : Save 23% on Philadelphia Candies Milk Chocolate Covered Nuts Gift Box VM933:2
-    8dafcfe0 : Wahl Professional Animal Kennel Pro Heavy-Duty Home Pet Grooming Kit VM933:2
-    7ead37b1 : Crunchies Freeze-Dried Fruit Snack, Mixed Fruit, 1.5-Ounce Pouches (Pack of 6) VM933:2
-    5cd8a570 : DuPont Tyvek Disposable Coverall VM933:2
-    3443a9a2 : BABYBJORN High Chair, Red
