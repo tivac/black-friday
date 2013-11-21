@@ -5,7 +5,12 @@ Utility to automatically purchase amazon black friday deals
 
 ## Install ##
 
-    Copy
+1.  Install NodeJS from http://nodejs.org/
+2.  Click `Download ZIP` button on the right
+3.  Unzip to a folder
+4.  Open shell inside that folder
+5.  Run `npm install`
+6.  Follow [Instructions](#instructions)
 
 ## Usage ##
 
