@@ -1,6 +1,8 @@
-/*jshint browser:true */
+/*jshint browser:true, devel:true */
 window.blackfriday = function() {
     "use strict";
+    
+    var deals = [];
     
     console.log("%cBlack Friday Info", "font-size: x-large; font-weight: bold;");
     console.log("");
@@ -22,6 +24,14 @@ window.blackfriday = function() {
             return;
         }
         
-        console.log(deal.dealID + " : " + deal.detail.title);
+        deals.push({ id : deal.dealID, title : deal.detail.title.trim() });
+    });
+    
+    deals.sort(function(a, b) {
+        return a.title.localeCompare(b.title);
+    });
+    
+    deals.forEach(function(deal) {
+        console.log(deal.id + " : " + deal.title);
     });
 };
