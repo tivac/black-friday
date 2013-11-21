@@ -1,0 +1,36 @@
+{
+    "marketplace" : {
+        "alias"   : "m",
+        "desc"    : "Amazon.com marketplace ID",
+        "type"    : "string",
+        "default" : "ATVPDKIKX0DER"
+    },
+    
+    "customer" : {
+        "demand"  : true,
+        "alias"   : "i",
+        "desc"    : "Amazon.com customer ID",
+        "type"    : "string"
+    },
+    
+    "session"  : {
+        "demand"  : true,
+        "alias"   : "s",
+        "desc"    : "Amazon.com session ID",
+        "type"    : "string"
+    },
+    
+    "delay" : {
+        "alias"   : "d",
+        "desc"    : "Average roundtrip time for you to Amazon in seconds",
+        "type"    : "number",
+        "default" : 1
+    },
+    
+    "cookie" : {
+        "alias"   : "c",
+        "desc"    : "Where to find the file containing your cookie data",
+        "type"    : "string",
+        "default" : "./cookie.txt"
+    }
+}
